@@ -19,10 +19,5 @@
 .buttons {
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  padding: px;
-}
-
-ayaz {
-  margin-right: 20px;
+  justify-content: center;
 }
