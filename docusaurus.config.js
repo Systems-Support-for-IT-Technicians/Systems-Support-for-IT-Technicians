@@ -50,7 +50,51 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/Home', label: 'Home', position: 'left'},
+          {
+            type: 'dropdown',
+            label: 'Notes',
+            position: 'left',
+            items: [
+              {
+                label: 'Customer Support Provision',
+                to: '/docs/CustomerSupportProvision',
+              },
+              {
+                label: 'Networking Principles',
+                to: '/docs/NetworkingPrinciples',
+              },
+              {
+                label: 'Visual Basic',
+                to: '/docs/VisualBasic',
+              },
+              {
+                label: 'Systems & Data Security',
+                to: '/docs/Systems&DataSecurity',
+              },
+              {
+                label: 'Maintain Equipment & Systems',
+                to: '/docs/MaintainEquipment&Systems',
+              },
+              {
+                label: 'Software Installation',
+                to: '/docs/SoftwareInstallation',
+              },
+              {
+                label: 'Testing Equipment',
+                to: '/docs/TestingEquipment',
+              },
+              {
+                label: 'Repair Centre Procedures',
+                to: '/docs/RepairCentreProcedures',
+              },
+              {
+                label: 'Install & Configure Networks',
+                to: '/docs/Install&ConfigureNetworks',
+              },
+            ],
+          },
+          {to: '/About', label: 'About', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
