@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Systems Support for IT Technicians (Notes)',
-  tagline: 'Level 2',
+  title: 'Systems Support for IT Technicians Level 2 (Notes)',
+  tagline: 'All notes for Systems Support for IT Technicians, it includes a wide range of topics like; hardware, software, networking, customer support and many more. Click the blue button below to see!',
 
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
@@ -103,31 +103,59 @@ const config = {
         ],
       },
       footer: {
-        style: 'dark',
+        style: 'light',
         links: [
           {
-            title: 'Community',
+            title: 'Notes',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Customer Support Provision',
+                to: '/docs/CustomerSupportProvision',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Networking Principles',
+                to: '/docs/NetworkingPrinciples',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'Visual Basic',
+                to: '/docs/VisualBasic',
+              },
+              {
+                label: 'Systems & Data Security',
+                to: '/docs/Systems&DataSecurity',
+              },
+              {
+                label: 'Maintain Equipment & Systems',
+                to: '/docs/MaintainEquipment&Systems',
+              },
+              {
+                label: 'Software Installation',
+                to: '/docs/SoftwareInstallation',
+              },
+              {
+                label: 'Testing Equipment',
+                to: '/docs/TestingEquipment',
+              },
+              {
+                label: 'Repair Centre Procedures',
+                to: '/docs/RepairCentreProcedures',
+              },
+              {
+                label: 'Install & Configure Networks',
+                to: '/docs/Install&ConfigureNetworks',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'Navigation',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Home',
+                to: '/Home',
+              },
+              {
+                label: 'About',
+                to: '/About',
               },
               {
                 label: 'GitHub',
