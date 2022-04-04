@@ -2,7 +2,7 @@
 title: Customers & Communication
 ---
 
-### What is a Customer?
+## What is a Customer?
 
 The customer is the person who pays your salary. Without customers, your business has no means of making a profit and therefore no means of paying you.
 
