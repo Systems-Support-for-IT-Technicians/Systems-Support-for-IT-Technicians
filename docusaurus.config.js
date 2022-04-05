@@ -58,7 +58,7 @@ const config = {
             items: [
               {
                 label: 'Customer Support Provision',
-                to: '/docs/CustomerSupportProvision',
+                href: '/docs/CustomerSupportProvision/AutomatingProcedures/',
               },
               {
                 label: 'Networking Principles',
