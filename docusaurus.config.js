@@ -8,7 +8,6 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Systems Support for IT Technicians Level 2 (Notes)',
   tagline: 'All notes for Systems Support for IT Technicians, it includes a wide range of topics like; hardware, software, networking, customer support and many more. Click the blue button below to see!',
-
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -58,39 +57,39 @@ const config = {
             items: [
               {
                 label: 'Customer Support Provision',
-                href: '/docs/CustomerSupportProvision/AutomatingProcedures/',
+                href: '/docs/CustomerSupportProvision/About/',
               },
               {
                 label: 'Networking Principles',
-                to: '/docs/NetworkingPrinciples',
+                to: '/docs/NetworkingPrinciples/About/',
               },
               {
                 label: 'Visual Basic',
-                to: '/docs/VisualBasic',
+                to: '/docs/VisualBasic/About/',
               },
               {
                 label: 'Systems & Data Security',
-                to: '/docs/Systems&DataSecurity',
+                to: '/docs/Systems&DataSecurity/About/',
               },
               {
                 label: 'Maintain Equipment & Systems',
-                to: '/docs/MaintainEquipment&Systems',
+                to: '/docs/MaintainEquipment&Systems/About/',
               },
               {
                 label: 'Software Installation',
-                to: '/docs/SoftwareInstallation',
+                to: '/docs/SoftwareInstallation/About/',
               },
               {
                 label: 'Testing Equipment',
-                to: '/docs/TestingEquipment',
+                to: '/docs/TestingEquipment/About/',
               },
               {
                 label: 'Repair Centre Procedures',
-                to: '/docs/RepairCentreProcedures',
+                to: '/docs/RepairCentreProcedures/About/',
               },
               {
                 label: 'Install & Configure Networks',
-                to: '/docs/Install&ConfigureNetworks',
+                to: '/docs/Install&ConfigureNetworks/About/',
               },
             ],
           },
@@ -110,39 +109,39 @@ const config = {
             items: [
               {
                 label: 'Customer Support Provision',
-                to: '/docs/CustomerSupportProvision',
+                to: '/docs/CustomerSupportProvision/About/',
               },
               {
                 label: 'Networking Principles',
-                to: '/docs/NetworkingPrinciples',
+                to: '/docs/NetworkingPrinciples/About',
               },
               {
                 label: 'Visual Basic',
-                to: '/docs/VisualBasic',
+                to: '/docs/VisualBasic/About/',
               },
               {
                 label: 'Systems & Data Security',
-                to: '/docs/Systems&DataSecurity',
+                to: '/docs/Systems&DataSecurity/About/',
               },
               {
                 label: 'Maintain Equipment & Systems',
-                to: '/docs/MaintainEquipment&Systems',
+                to: '/docs/MaintainEquipment&Systems/About/',
               },
               {
                 label: 'Software Installation',
-                to: '/docs/SoftwareInstallation',
+                to: '/docs/SoftwareInstallation/About/',
               },
               {
                 label: 'Testing Equipment',
-                to: '/docs/TestingEquipment',
+                to: '/docs/TestingEquipment/About/',
               },
               {
                 label: 'Repair Centre Procedures',
-                to: '/docs/RepairCentreProcedures',
+                to: '/docs/RepairCentreProcedures/About/',
               },
               {
                 label: 'Install & Configure Networks',
-                to: '/docs/Install&ConfigureNetworks',
+                to: '/docs/Install&ConfigureNetworks/About/',
               },
             ],
           },
@@ -151,11 +150,11 @@ const config = {
             items: [
               {
                 label: 'Home',
-                to: '/Home',
+                to: '#',
               },
               {
                 label: 'About',
-                to: '/About',
+                to: '#',
               },
               {
                 label: 'GitHub',
@@ -164,7 +163,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Systems Support for IT Technicians Level 2. All Rights Reserved.`,
       },
       prism: {
         theme: lightCodeTheme,
