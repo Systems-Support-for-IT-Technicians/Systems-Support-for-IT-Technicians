@@ -103,66 +103,6 @@ const config = {
       },
       footer: {
         style: 'light',
-        links: [
-          {
-            title: 'Notes',
-            items: [
-              {
-                label: 'Customer Support Provision',
-                to: '/docs/CustomerSupportProvision/About/',
-              },
-              {
-                label: 'Networking Principles',
-                to: '/docs/NetworkingPrinciples/About',
-              },
-              {
-                label: 'Visual Basic',
-                to: '/docs/VisualBasic/About/',
-              },
-              {
-                label: 'Systems & Data Security',
-                to: '/docs/Systems&DataSecurity/About/',
-              },
-              {
-                label: 'Maintain Equipment & Systems',
-                to: '/docs/MaintainEquipment&Systems/About/',
-              },
-              {
-                label: 'Software Installation',
-                to: '/docs/SoftwareInstallation/About/',
-              },
-              {
-                label: 'Testing Equipment',
-                to: '/docs/TestingEquipment/About/',
-              },
-              {
-                label: 'Repair Centre Procedures',
-                to: '/docs/RepairCentreProcedures/About/',
-              },
-              {
-                label: 'Install & Configure Networks',
-                to: '/docs/Install&ConfigureNetworks/About/',
-              },
-            ],
-          },
-          {
-            title: 'Navigation',
-            items: [
-              {
-                label: 'Home',
-                to: '#',
-              },
-              {
-                label: 'About',
-                to: '#',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/AyazZafar/ayazdocusaurus',
-              },
-            ],
-          },
-        ],
         copyright: `Copyright © ${new Date().getFullYear()} Systems Support for IT Technicians Level 2. All Rights Reserved.`,
       },
       prism: {
