@@ -10,8 +10,8 @@ const config = {
   tagline: 'All notes for Systems Support for IT Technicians, it includes a wide range of topics like; hardware, software, networking, customer support and many more. Click the blue button below to see!',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenLinks: 'ignore',
+  onBrokenMarkdownLinks: 'ignore',
   favicon: 'img/logo.svg',
   organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
