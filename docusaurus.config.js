@@ -44,6 +44,7 @@ const config = {
     ({
       navbar: {
         title: 'Systems Support For IT Technicians',
+
         logo: {
           alt: 'Logo',
           src: 'img/logo.svg',
