@@ -44,7 +44,7 @@
 
 .big {
   text-align: center;
-  padding-top: 55px;
+  padding-top: 50px;
   font-size: xx-large;
 }
 
@@ -88,7 +88,7 @@ b {
 .button1 {
   padding-left: 25px;
   padding-right: 25px;
-  padding-top: 10px;
+  padding-top: 15px;
   padding-bottom: 10px;
   border-radius: 20px;
   font-size: 17px;
@@ -103,13 +103,15 @@ b {
 .button2 {
   padding-left: 25px;
   padding-right: 25px;
-  padding-top: 10px;
+  padding-top: 15px;
   padding-bottom: 10px;
   border-radius: 20px;
   font-size: 17px;
+  margin: auto;
   background-color: #cbd5e0;
   margin-left: 7.5px;
   border: none;
   margin-top: 10px;
 }
+
 

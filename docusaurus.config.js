@@ -8,13 +8,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Systems Support for IT Technicians Level 2 (Notes)',
   tagline: 'All notes for Systems Support for IT Technicians, it includes a wide range of topics like; hardware, software, networking, customer support and many more. Click the blue button below to see!',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://ayazdocusaurus.vercel.app',
   baseUrl: '/',
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'ignore',
   favicon: 'img/logo.svg',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'Ayaz Zafar', // Usually your GitHub org/user name.
+  projectName: 'ayazdocusaurus', // Usually your repo name.
 
   presets: [
     [
@@ -102,7 +102,7 @@ const config = {
         ],
       },
       footer: {
-        style: 'light',
+        style: 'dark',
         copyright: `Copyright © ${new Date().getFullYear()} Systems Support for IT Technicians Level 2. All Rights Reserved.`,
       },
       prism: {
