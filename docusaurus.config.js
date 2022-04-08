@@ -107,7 +107,7 @@ const config = {
           height: 51,
           href: 'https://vercel.com/?utm_source=systems-support-for-it-technicians&utm_campaign=oss',
     },
-        style: 'dark',
+        style: 'light',
         copyright: `Copyright © ${new Date().getFullYear()} Systems Support for IT Technicians Level 2. All Rights Reserved.`,
       },
       prism: {
