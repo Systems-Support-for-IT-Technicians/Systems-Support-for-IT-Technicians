@@ -8,13 +8,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Systems Support for IT Technicians Level 2 (Notes)',
   tagline: 'All notes for Systems Support for IT Technicians, it includes a wide range of topics like; hardware, software, networking, customer support and many more. Click the blue button below to see!',
-  url: 'https://ayazdocusaurus.vercel.app',
+  url: 'https://ayazsite.cf',
   baseUrl: '/',
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'ignore',
   favicon: 'img/logo.svg',
   organizationName: 'Ayaz Zafar', // Usually your GitHub org/user name.
-  projectName: 'ayazdocusaurus', // Usually your repo name.
+  projectName: 'Systems-Support-for-IT-Technicians', // Usually your repo name.
 
   presets: [
     [
@@ -24,7 +24,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/AyazZafar/ayazdocusaurus/edit/main',
+          editUrl: 'https://github.com/Systems-Support-for-IT-Technicians/Systems-Support-for-IT-Technicians',
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
         },
@@ -93,7 +93,7 @@ const config = {
           },
           {to: '/About', label: 'About', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/Systems-Support-for-IT-Technicians/Systems-Support-for-IT-Technicians',
             label: 'GitHub',
             position: 'right',
           },
