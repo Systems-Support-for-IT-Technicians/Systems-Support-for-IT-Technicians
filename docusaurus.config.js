@@ -100,6 +100,13 @@ const config = {
         ],
       },
       footer: {
+        logo: {
+          alt: 'Powered by Vercel',
+          src: 'powered-by-vercel.svg',
+          width: 160,
+          height: 51,
+          href: 'https://vercel.com/?utm_source=systems-support-for-it-technicians&utm_campaign=oss',
+    },
         style: 'dark',
         copyright: `Copyright © ${new Date().getFullYear()} Systems Support for IT Technicians Level 2. All Rights Reserved.`,
       },
