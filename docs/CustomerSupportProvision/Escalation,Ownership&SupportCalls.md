@@ -140,13 +140,13 @@ Telephone communication will form a large part of your activities on the Help De
 
 The structure of a typical support call along with the skills required is as follows:
 
-* ### Greeting
+### Greeting
 
 - Etiquette
 
 - Attitude
 
-* ### Assess the customer's problem
+### Assess the customer's problem
 
 - Listen
 
@@ -154,15 +154,15 @@ The structure of a typical support call along with the skills required is as fol
 
 - Empathy/Rapport
 
-* ### Resolve or escalate the call
+### Resolve or escalate the call
 
 - Instruct
 
-* ### Close the call
+### Close the call
 
 - Document
 
-* ### Follow up
+### Follow up
 
 ### The Greeting
 
