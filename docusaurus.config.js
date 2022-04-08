@@ -24,14 +24,11 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/AyazZafar/ayazdocusaurus/edit/main',
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
+        blog: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -103,6 +100,13 @@ const config = {
         ],
       },
       footer: {
+        logo: {
+          alt: 'Powered by Vercel',
+          src: 'powered-by-vercel.svg',
+          width: 160,
+          height: 51,
+          href: 'https://vercel.com/?utm_source=systems-support-for-it-technicians&utm_campaign=oss',
+    },
         style: 'dark',
         copyright: `Copyright © ${new Date().getFullYear()} Systems Support for IT Technicians Level 2. All Rights Reserved.`,
       },
