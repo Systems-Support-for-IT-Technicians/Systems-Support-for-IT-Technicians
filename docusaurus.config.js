@@ -125,7 +125,7 @@ const config = {
               highlightSearchTermsOnTargetPage: false,
               translations:
               {
-                "search_placeholder": "Search Notes",
+                "search_placeholder": "Search",
                 }
           }
       ],
