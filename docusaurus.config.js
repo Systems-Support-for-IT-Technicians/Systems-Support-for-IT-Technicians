@@ -35,6 +35,7 @@ const config = {
       }),
     ],
   ],
+  
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -115,6 +116,20 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
+    plugins: [
+      [
+          require.resolve("@easyops-cn/docusaurus-search-local"),
+          {
+              hashed: true,
+              docsDir: 'docs',
+              docsRouteBasePath: '/',
+              indexDocs: true,
+              indexBlog: false,
+              indexPages: false,
+              highlightSearchTermsOnTargetPage: false
+          }
+      ],
+    ],
 };
 
 module.exports = config;
