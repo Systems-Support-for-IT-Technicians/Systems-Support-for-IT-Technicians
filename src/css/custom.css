@@ -114,4 +114,11 @@ b {
   margin-top: 15px;
 }
 
+.navbar__search-input {
+  color: black;
+  background-color: #bec3c9;
+  width: 230px;
+}
+
+
 
