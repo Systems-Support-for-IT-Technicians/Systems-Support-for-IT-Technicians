@@ -92,12 +92,8 @@ const config = {
               },
             ],
           },
+          {to: 'https://github.com/Systems-Support-for-IT-Technicians/Systems-Support-for-IT-Technicians', label: 'Github', position: 'left'},
           {to: '/About', label: 'About', position: 'left'},
-          {
-            href: 'https://github.com/Systems-Support-for-IT-Technicians/Systems-Support-for-IT-Technicians',
-            label: 'GitHub',
-            position: 'right',
-          },
         ],
       },
       footer: {
