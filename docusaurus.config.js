@@ -122,7 +122,11 @@ const config = {
               indexDocs: true,
               indexBlog: false,
               indexPages: false,
-              highlightSearchTermsOnTargetPage: false
+              highlightSearchTermsOnTargetPage: false,
+              translations:
+              {
+                "search_placeholder": "Search Notes",
+                }
           }
       ],
     ],
