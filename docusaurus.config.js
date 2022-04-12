@@ -41,7 +41,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Systems Support For IT Technicians',
+        title: 'Systems Support for IT Technicians',
 
         logo: {
           alt: 'Logo',
