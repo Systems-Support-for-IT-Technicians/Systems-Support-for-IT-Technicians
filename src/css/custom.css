@@ -62,11 +62,12 @@
   margin-right: auto;
   width: 60%;
   padding-top: 20px;
+  height: auto;
 }
 
 .themedImage_node_modules-\@docusaurus-theme-classic-lib-next-theme-ThemedImage-styles-module {
-  width: 80%;
-  height: 80%;
+  width: 90%;
+  height: 90%;
 }
 
 .navbar__link {
