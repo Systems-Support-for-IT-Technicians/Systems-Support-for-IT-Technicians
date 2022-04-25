@@ -1,5 +1,5 @@
 {
-  "name": "Systems-Support-for-IT-Technicians",
+  "name": "ayazdocusaurus",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -35,4 +35,4 @@
       "last 1 safari version"
     ]
   }
-  }
+}
