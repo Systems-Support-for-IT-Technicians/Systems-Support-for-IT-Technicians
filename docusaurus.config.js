@@ -1,9 +1,7 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
-
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
-
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Systems Support for IT Technicians Level 2 (Notes)',
@@ -15,7 +13,6 @@ const config = {
   favicon: 'img/logo.svg',
   organizationName: 'Ayaz Zafar', // Usually your GitHub org/user name.
   projectName: 'Systems-Support-for-IT-Technicians', // Usually your repo name.
-
   presets: [
     [
       'classic',
@@ -36,11 +33,11 @@ const config = {
     ],
   ],
   
-
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
+        title: 'Systems Support For IT Technicians',
         title: 'Systems Support for IT Technicians',
 
         logo: {
@@ -131,5 +128,4 @@ const config = {
       ],
     ],
 };
-
 module.exports = config;
